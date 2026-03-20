@@ -55,7 +55,7 @@ public class InterpreterDemo {
         String validClause = "El Arrendatario pagara el canon mensual";
         String invalidClause = "El Inquilino pagara la renta mensual pero puede subarrendar";
 
-        System.out.println("Test 1 (Valid): " + validator.interpret(validClause)); // Should be true
-        System.out.println("Test 2 (Invalid - Forbidden word): " + validator.interpret(invalidClause)); // Should be false
+        System.out.println("Test 1 (Valid): " + validator.interpret(validClause)); // muestra true
+        System.out.println("Test 2 (Invalid - forbidden word): " + validator.interpret(invalidClause)); // muestra false
     }
 }
